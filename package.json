@@ -1,0 +1,16 @@
+{
+  "name": "nav-site-ops",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node scripts for sitemap audits, internal link graphs and IndexNow submission",
+  "bin": {
+    "sitemap-audit": "bin/sitemap-audit.js",
+    "link-graph": "bin/link-graph.js",
+    "indexnow-push": "bin/indexnow-push.js",
+    "precompress": "bin/precompress.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "private": false
+}
