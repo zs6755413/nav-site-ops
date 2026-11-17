@@ -127,6 +127,10 @@ brotli_static on;   # 需要 ngx_brotli 模块
   0 6 * * * cd /path/to/site && node bin/indexnow-push.js --host ... --from-sitemap sitemap-posts.xml --check 4 >> /var/log/indexnow.log 2>&1
   ```
 
+## 更新记录
+
+- [2026-11-17：把「怎么读输出」补上](docs/2026-11-17-update.md) —— 没有新增命令。补的是每个工具的判读标准、安全阀参数、直连源站的头处理，以及什么情况下不该用这套东西。
+
 ## 关于
 
 脚本来自 [Kan112 AI 网址导航](https://www.kan112.com/) 的日常运维。站点是一个 AI 工具与建站资源库，同时记录建站过程中的排查过程，包括上面这些坑是怎么踩出来的。
